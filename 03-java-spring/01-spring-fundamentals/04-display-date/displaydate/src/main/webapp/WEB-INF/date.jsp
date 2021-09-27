@@ -5,8 +5,12 @@
 <html>
 <head>
 	<meta charset="ISO-8859-1">
-	<title>New title</title>
+	<title>Date Template</title>
+	<link rel="stylesheet" href="css/style/css">
+	<script src="js/script.js"></script>
 </head>
 <body>
+	<script>date()</script>
+	<p class= "date"><fmt:formatDate pattern="EEEE, 'the' dd 'of' MMMM, YYYY" value="$(datetime)"/></p>
 </body>
 </html>
